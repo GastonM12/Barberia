@@ -1,0 +1,55 @@
+.seccionPrecio{
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+
+.imagenPrecio{
+    width: 45%;
+}
+.articuloPrecio{
+    background-color: #0b0b0b;
+    width: 55%;
+}
+.tituloPrecio{
+    width: 450px;
+    font-size: 50px;
+    color: white;
+    margin: 100px 0px 40px 120px;
+
+}
+
+.parrafoPrecioBlanco{
+    width: 450px;
+    color: white;
+    margin:50px 0px 90px 120px ;
+
+}
+.botonPrecio{
+    width: 150px;
+    height: 33px;
+    margin: 90px 0px 50px 120px;
+}
+.seccionPresentacion{
+    width: 100%;
+    height: 850px;
+    display: flex;
+}
+.listaDePrecios{
+    margin:12px 0px 0px 120px;
+    color: white;
+    width: 400px;
+    height: 28px;
+    display: flex;
+    border-bottom: 1px solid  rgb(212, 212, 212);
+    justify-content: space-between;
+}
+.parrafo1{
+    margin-bottom: 9px;
+}
+.listaDePrecio{
+    color: rgb(156, 26, 26);
+}
+
+

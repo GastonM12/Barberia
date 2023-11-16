@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/logoBarberiaDos.ico" />
+    <!-- link para iconos -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ba01e8ab35.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/loader.js"></script>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/SeccionPrincipal.css" />
+    <link rel="stylesheet" href="css/btn.css" />
+    <link rel="stylesheet" href="css/SeccionInformacion.css" />
+    <link rel="stylesheet" href="css/SeccionServicio.css" />
+    <link rel="stylesheet" href="css/SeccionPrecios.css" />
+    <link rel="stylesheet" href="css/SeccionNosotros.css" />
+    <link rel="stylesheet" href="css/SeccionTurno.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="seccionLoader">
+      <div class="contenedorLoader">
+        <img class="imagenLogo" src="/images/logoBarberiaDos.png" alt="Logo Barberia" />
+        <span id="loader2" class="loader2"></span>
+      </div>
+    </section>
+    <section class="seccionInicio">
+      <nav class="barra">
+        <img class="logo" src="/images/logoBarberiaDos.png" alt="Logo Barberia"/>
+        <ul class="itemsBarra">
+          <li class="items"><a class="enlacesItems" href="">inicio</a></li>
+          <li class="items"><a class="enlacesItems" href="">servicios</a></li>
+          <li class="items"><a class="enlacesItems" href="">precio</a></li>
+          <li class="items"><a class="enlacesItems" href="">nosotros</a></li>
+          <li class="items"><a class="enlacesItems" href="">contacto</a></li>
+          <li id="itemsTareas" class="items subMenuCerrado">
+            <a class="enlacesItems iconoSubMenu" href="#">
+              <i class="fa-solid fa-list fa-xl" style="color: #ffffff"></i>
+              <span
+                id="contadorDeNotificaciones"
+                class="contadorDeNotificaciones"
+              ></span
+            ></a>
+            <ul id="subMenu" class="subMenuDos"></ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="contenedorPrincipal">
+        <h1 class="tituloInicio">BARBERIA</h1>
+        <h3 class="tituloNombre">MEXICAN</h3>
+        <p class="parrafoPrincipal">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
+          velit, omnis labore, dolorem ut consectetur architecto sequi
+          exercitationem numquam delectus est explicabo repudiandae dolores
+          optio quia, quasi pariatur autem quae?
+        </p>
+        <div class="container">
+          <div class="btn">
+            <a id="btnPrincipal" class="enlaceBtn" >INFORMACION</a>
+          </div>
+        </div>
+        <section class="seccionInformacionDeContacto">
+          <div class="informacionDeContacto">
+            <h4 class="tituloInformacioDeContacto">DIRECCION</h4>
+            <p class="parrafoInformacionDeContacto">@hotmail</p>
+          </div>
+          <div class="informacionDeContacto">
+            <h4 class="tituloInformacioDeContacto">TELEFONO</h4>
+            <p class="parrafoInformacionDeContacto">5555555</p>
+          </div>
+          <div class="informacionDeContacto">
+            <h4 class="tituloInformacioDeContacto">HORARIO</h4>
+            <p class="parrafoInformacionDeContacto">9AM A 9PM</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="seccionPresentacion">
+      <div class="contenedorImagen">
+        <img
+          class="imagenInformacion"
+          src="/images/a1.jpg"
+          alt="maquina de cortar pelo"
+        />
+      </div>
+      <article class="articuloPresentacion">
+        <h1 class="tituloPresentacion">BIENVENIDOS A LA BARBERIA</h1>
+        <p class="parrafoPresentacionRojo">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
+          tempore.
+        </p>
+        <p class="parrafoPresentacionBlanco">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          aliquid illo odio accusantium ad provident tempora sequi assumenda?
+          Officia veritatis illo numquam asperiores adipisci quaerat, doloremque
+          cupiditate repellat, dolore dolor quas voluptate? Hic, temporibus
+          sequi nam adipisci, aperiam ut fugit optio in consequatur cum
+          assumenda. Corrupti necessitatibus impedit tempore maiores.
+        </p>
+        <div class="containerInfo">
+          <div class="btnInfo">
+            <a id="btnPresentacion" class="enlaceBtnInfo" >INFORMACION</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="seccionServicios">
+      <h1 class="tituloSeccionServicios">NUESTROS SERVICIOS</h1>
+      <div class="divSeccionServicios"></div>
+      <p class="parrafoSeccionServicio">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
+        repellat itaque accusamus impedit ad nesciunt, quam asperiores deserunt
+        nihil ex vitae facere aperiam eum architecto mollitia maiores at alias
+        odit.
+      </p>
+      <article class="articulosServicios">
+        <div class="contenedorDeTarjetas">
+          <div id="tarjetaUno" class="tarjetas">
+            <div class="iconoTarjeta">
+              <img class="iconoDeServicios" src="/images/barbaDos.png" alt="Icono Barba" />
+            </div>
+            <h1 class="tituloDeTarjeta">Barba</h1>
+            <ul class="listadoDeTarjeta">
+              
+              <li class="itemsTarjeta">Pago con tarjeta de credito o debito</li>
+              <li class="itemsTarjeta">Descuento</li>
+            </ul>
+            <div class="container">
+              <div class="btn btn-chico">
+                <a class="btnPrecio enlaceBtn">Precio</a>
+              </div>
+            </div>
+          </div>
+          <div id="tarjetaDos" class="tarjetas">
+            <div class="iconoTarjeta">
+              <img
+                class="iconoDeServicios"
+                src="/images/maquinilla-de-afeitarDos.png"
+                alt="Icono Navaja"
+              />
+            </div>
+            <h1 class="tituloDeTarjeta">Corte</h1>
+            <ul class="listadoDeTarjeta">
+             
+              <li class="itemsTarjeta">Pago con tarjeta de credito o debito</li>
+              <li class="itemsTarjeta">Descuento 30%</li>
+            </ul>
+            <div class="container">
+              <div class="btn btn-chico">
+                <a class="btnPrecio enlaceBtn">Precio</a>
+              </div>
+            </div>
+          </div>
+          <div id="tarjetaTres" class="tarjetas">
+            <div class="iconoTarjeta">
+              <img
+                class="iconoDeServiciosT"
+                src="/images/tinturaDos.png"
+                alt="Icono Tintura"
+              />
+            </div>
+            <h1 class="tituloDeTarjeta">Tinte</h1>
+            <ul class="listadoDeTarjeta">
+             
+              <li class="itemsTarjeta">Pago con tarjeta de credito o debito</li>
+              <li class="itemsTarjeta">Descuento 60%</li>
+            </ul>
+            <div class="container containerBotonServicio">
+              <div class="btn btn-chico">
+                <a class="btnPrecio enlaceBtn" >Precio</a>
+              </div>
+            </div>
+          </div>
+          <div id="tarjetasCuatro" class="tarjetas">
+            <div class="iconoTarjeta">
+              <img
+                class="iconoDeServicios"
+                src="/images/tijeras-y-peineDos.png"
+                alt="Icono Tijera y Peine"
+              />
+            </div>
+            <h1 class="tituloDeTarjeta">Corte y Barba</h1>
+            <ul class="listadoDeTarjeta">
+              <li class="itemsTarjeta">Soporte tecnico</li>
+              <li class="itemsTarjeta">Pago con tarjeta de credito o debito</li>
+              <li class="itemsTarjeta">Descuento 60%</li>
+            </ul>
+            <div class="container">
+              <div class="btn btn-chico">
+                <a class="btnPrecio enlaceBtn" >Precio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="container containerBotonServicio">
+        <div class="btn BotonServicio">
+          <a id="btnServicio" class="enlaceBtn">INFORMACION</a>
+        </div>
+      </div>
+    </section>
+    <section class="seccionPrecio">
+      <article class="articuloPrecio">
+        <h1 class="tituloPrecio">LISTA DE PRECIO</h1>
+
+        <p class="parrafoPrecioBlanco">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          aliquid illo odio accusantium ad provident tempora sequi assumenda?
+          Officia veritatis illo numquam asperiores adipisci quaerat, doloremque
+          cupiditate repellat, dolore dolor quas voluptate? Hic, temporibus
+          sequi nam adipisci, aperiam ut fugit optio in consequatur cum
+          assumenda. Corrupti necessitatibus impedit tempore maiores.
+        </p>
+        <div class="listaDePrecios">
+          <p class="">Corte</p>
+          <p class="listaDePrecio">$2000</p>
+        </div>
+        <div class="listaDePrecios">
+          <p class="parrafo1">Barba</p>
+          <p class="listaDePrecio">$800</p>
+        </div>
+        <div class="listaDePrecios">
+          <p class="parrafo1">Corte y Barba</p>
+          <p class="listaDePrecio">$2500</p>
+        </div>
+        <div class="container">
+          <div class="btn">
+            <a id="btnPrecio" class="enlaceBtn">INFORMACION</a>
+          </div>
+        </div>
+      </article>
+      <img
+        class="imagenPrecio"
+        src="/images/a2.jpg"
+        alt="magen De Estilista"
+      />
+    </section>
+    <section class="seccionNosotros">
+      <h1 class="tituloSeccionNosotros">NUESTROS ESTILISTAS</h1>
+      <div class="divSeccionNosotros"></div>
+      <p class="parrafoSeccionNosotros">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
+        repellat itaque accusamus impedit ad nesciunt, quam asperiores deserunt
+        nihil ex vitae facere aperiam eum architecto mollitia maiores at alias
+        odit.
+      </p>
+      <article class="articulosNosotros">
+        <div class="divisorNosotros">
+          <img class="imagenNosotros" src="/images/b2.jpg" alt="EstilistaUno" />
+          <h2 class="tituloNosotros">LOREM</h2>
+          <p class="informacionNosotros">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            delectus repudiandae illum. Tenetur, illo ipsam.
+          </p>
+          <p class="parrafoServicioRojo">Saber mas</p>
+        </div>
+        <div class="divisorNosotros">
+          <img class="imagenNosotros" src="/images/b3.jpg" alt="EstilistaDos" />
+          <h2 class="tituloNosotros">LOREM</h2>
+          <p class="informacionNosotros">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            delectus repudiandae illum. Tenetur, illo ipsam.
+          </p>
+          <p class="parrafoServicioRojo">Saber mas</p>
+        </div>
+        <div class="divisorNosotros">
+          <img class="imagenNosotros" src="/images/b1.jpg" alt="EstilistaTres" />
+          <h2 class="tituloNosotros">LOREM</h2>
+          <p class="informacionNosotros">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            delectus repudiandae illum. Tenetur, illo ipsam.
+          </p>
+          <p class="parrafoServicioRojo">Saber mas</p>
+        </div>
+      </article>
+      <div class="container containerBotonNosotros">
+        <div class="btn BotonNosotros">
+          <a id="btnNosotros" class="enlaceBtn" >INFORMACION</a>
+        </div>
+      </div>
+    </section>
+    <section id="seccionDelTurno" class="seccionTurno">
+      <img
+      class="imagentituloTurno"
+      src="/images/agenda de turnos (2).png"
+      alt="Logo Agenda"
+      />
+      <div class="contenedorIconoTema" id="contenedorIconoTema">
+        <i class="fa-regular fa-moon iconoTema" style="color: #ffffff"></i>
+      </div>
+      <input type="checkbox" id="botonCambioDeTema" class="temaDeTurno" />
+
+      <label for="botonCambioDeTema" class="switch"></label>
+      <section class="seccionContacto">
+        <section
+          class="seccionNotificaciones"
+          aria-label="Basic Structure Example"
+        >
+          <form
+            id="formulario"
+            action="#"
+            method="GET"
+            enctype="multipart/form-data"
+          >
+            <h2 class="tituloInputFecha">Selcciona la fecha del turno</h2>
+            <input id="inputFecha" type="date" />
+            <div id="seccionHorarios" class="seccionHorarios">
+              <span id="loader1" class="loader1"></span>
+              <h2 id="tituloHorarioId"></h2>
+              <ul id="containerCheck" class="tarjeta">
+                <li class="containerInfoCheck">
+                  <i
+                    class="fa-solid fa-circle-info fa-lg"
+                    style="color: #ffffff"
+                  ></i>
+                  <p class="parrafoInfoCheck">
+                    Para ver los horarios disponibles seleccione una fecha
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <input
+              id="enviar"
+              type="submit"
+              value="Confirmar"
+              class="btnEnviar"
+            />
+          </form>
+        </section>
+        <div class="contenedorSeccionNotificaciones">
+          <img
+            class="logoNotificaciones"
+            src="/images/logoBarberiaDos.png"
+            alt="Logo Barberia"
+          />
+          <div class="Notificaciones"></div>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <img class="logoFooter" src="/images/logoBarberiaDos.png" alt="Logo Barberia" />
+      <div contenedorRedes>
+        <i class="fa-brands fa-github fa-xl iconoFooter"></i>
+        <i class="fa-brands fa-square-facebook fa-xl iconoFooter"></i>
+        <i class="fa-brands fa-whatsapp fa-xl iconoFooter"></i>
+        <i class="fa-brands fa-instagram fa-xl iconoFooter"></i>
+      </div>
+
+      <p class="parrafoFooter">Copyright&copy 2023</p>
+    </footer>
+    <script src="js/variablesDelDOM.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/funcionesDom.js"></script>
+    <script src="js/cambioDeTema.js"></script>
+    <script src="js/peticionApi.js"></script>
+    <script src="js/funcionesObjetos.js"></script>
+    <script src="js/objetos.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

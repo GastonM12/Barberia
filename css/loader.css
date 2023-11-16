@@ -1,0 +1,134 @@
+.loader1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: none;
+  margin: 15px auto;
+  position: relative;
+  background: #fff;
+  box-shadow: -24px 0 #fff, 24px 0 #fff;
+  box-sizing: border-box;
+  animation: shadowPulse 2s linear infinite;
+}
+
+@keyframes shadowPulse {
+  33% {
+    background: #fff;
+    box-shadow: -24px 0 rgb(156, 26, 26), 24px 0 #fff;
+  }
+  66% {
+    background: rgb(156, 26, 26);
+    box-shadow: -24px 0 #fff, 24px 0 #fff;
+  }
+  100% {
+    background: #fff;
+    box-shadow: -24px 0 #fff, 24px 0 rgb(156, 26, 26);
+  }
+}
+.seccionLoader {
+  width: 100%;
+  background: rgb(37,37,37);
+  background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(69,68,68,1) 48%, rgba(141,146,147,1) 100%);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+}
+.close {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.contenedorLoader {
+  margin-top: -200px;
+}
+.imagenLogo {
+  background-color: transparent;
+  width: 220px;
+  height: 220px;
+  -webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+  animation: pulsate-bck 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.loader2 {
+  width: 100%;
+  height: 8px;
+  border-radius: 5;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.loader2::before {
+  content: "";
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.25) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0.25) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 15px 15px;
+  z-index: 10;
+}
+.loader2::after {
+  content: "";
+  box-sizing: border-box;
+  width: 0%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 0 4px 4px 0;
+  top: 0;
+  left: 0;
+  animation: animFw 1.7s ease-in infinite;
+}
+
+@keyframes animFw {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

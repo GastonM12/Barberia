@@ -1,0 +1,117 @@
+.seccionServicios{
+    width: 100%;
+    height: 822px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloSeccionServicios{
+    font-size: 50px;
+    margin: 35px 0px 0px 0px;
+    color: white;
+}
+.divSeccionServicios{
+    background-color:  rgb(156, 26, 26);
+    width: 105px;
+    height: 2px;
+}
+.parrafoSeccionServicio{
+    width:650px ;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.articulosServicios{
+    width: 100%;
+    display: flex;
+    
+}
+.divisorServicio{
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 35px 100px 35px;
+}
+.botonServicio{
+    width: 150px;
+    height: 33px;
+}
+.contenedorDeTarjetas {
+    margin-left: 93px;
+    margin-top: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .contenedorDeTarjetas .tarjetas {
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.01) 1px solid;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.111), transparent)
+  }
+  .iconoTarjeta{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-50px;
+  margin-bottom:40px;
+  border-radius: 50%;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.25);
+  
+  }
+  .iconoDeServicios{
+    width:30px ;
+    height: 30px;
+  }
+  .iconoDeServiciosT{
+    width: 45px;
+    height: 30px;
+  }
+  .tituloDeTarjeta{
+    color: white;
+    margin-bottom: 12px;
+    
+  }
+  .itemsTarjeta{
+    list-style: none;
+    color: white;
+    margin-top: 7px;
+  }
+  .botonTarjetas{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    background-image: linear-gradient(to bottom, #d71fef 0%, #580585 100%);
+    color: white;
+    margin-top: 25px;
+  
+  }
+  
+  .tarjetas:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1) translate(0px, -5px);
+    -webkit-transform: scale(1.1) translate(0px, -5px);
+    -o-transform: scale(1.1) translate(0px, -5px);
+    -ms-transform: scale(1.1) translate(0px, -5px);
+    transform: scale(1.1) translate(0px, -5px);
+    transition-duration: 300ms;
+  }
+  
+ 

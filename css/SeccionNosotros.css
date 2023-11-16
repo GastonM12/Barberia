@@ -1,0 +1,55 @@
+.seccionNosotros{
+    width: 100%;
+    height: 722px;
+    background: rgb(23,23,23);
+    background: linear-gradient(180deg, rgba(23,23,23,1) 0%, rgba(52,52,52,1) 50%, rgba(66,66,66,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloSeccionNosotros{
+    font-size: 50px;
+    margin: 35px 0px 0px 0px;
+    color: white;
+}
+.divSeccionNosotros{
+    background-color:  rgb(156, 26, 26);
+    width: 105px;
+    height: 2px;
+}
+.parrafoSeccionNosotros{
+    width:650px ;
+    color: white;
+    margin-top: 17px;
+    text-align: center;
+}
+.articulosNosotros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divisorNosotros{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 30px 40px 30px;
+}
+.botonServicio{
+    width: 150px;
+    height: 33px;
+}
+.informacionNosotros{
+    width: 300px;
+    margin-top: 13px;
+    text-align: center;
+}
+.tituloNosotros{
+    margin-top: 20px;
+}
+.imagenNosotros{
+    width: 195px;
+    height: 220px;
+    border-radius: 5px;
+}

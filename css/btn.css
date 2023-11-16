@@ -1,0 +1,200 @@
+.container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .btn{
+ position: relative;
+ width: 150px;
+ height: 33px;
+ margin-bottom: 100px;
+ margin-top: 60px;
+ 
+}
+.container .btn .enlaceBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.01);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 5px;
+    color: white;
+    z-index: 1;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+.container .btn:hover .enlaceBtn{
+    letter-spacing:3px ;
+}
+.container .btn .enlaceBtn::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15),transparent);
+    transform: skewX(45deg)translateX(200%);
+    transition: 0.5s;
+}
+.container .btn:hover .enlaceBtn::before{
+    transform: skewX(45deg) translateX(200%);
+}
+.container .btn::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 10px;
+    background-color:rgb(156, 26, 26);
+    transition: 0.5s;
+}
+.container .btn:hover::before{
+   bottom: 0;
+   height: 50%;
+   width: 90%;
+   border-radius: 30px;
+   transition-delay: 0s;
+
+}
+.container .btn::after{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    width: 50px;
+    height: 10px;
+    background-color: rgb(156, 26, 26);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container .btn:hover::after{
+   top: 0;
+   height: 50%;
+   width: 80%;
+   border-radius: 10px;
+   transition-delay: 0s;
+
+}
+
+.container .btn-chico{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 150px;
+    height: 30px;
+}
+
+
+
+
+.containerInfo{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.containerInfo .btnInfo{
+ position: relative;
+ width: 150px;
+ height: 33px;
+ margin-bottom: 100px;
+ margin-top: 60px;
+ 
+}
+.containerInfo .btnInfo .enlaceBtnInfo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.01);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 5px;
+    color: white;
+    z-index: 1;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+.containerInfo .btnInfo:hover .enlaceBtnInfo{
+    letter-spacing:3px ;
+}
+.containerInfo .btnInfo .enlaceBtnInfo::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15),transparent);
+    transform: skewX(45deg)translateX(200%);
+    transition: 0.5s;
+}
+.containerInfo .btnInfo:hover .enlaceBtnInfo::before{
+    transform: skewX(45deg) translateX(200%);
+}
+.containerInfo .btnInfo::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 10px;
+    background-color:rgb(156, 26, 26);
+    transition: 0.5s;
+}
+.containerInfo .btnInfo:hover::before{
+   bottom: 0;
+   height: 50%;
+   width: 90%;
+   border-radius: 30px;
+   transition-delay: 0s;
+
+}
+.containerInfo .btnInfo::after{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    width: 50px;
+    height: 10px;
+    background-color: rgb(156, 26, 26);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.containerInfo .btnInfo:hover::after{
+   top: 0;
+   height: 50%;
+   width: 80%;
+   border-radius: 10px;
+   transition-delay: 0s;
+
+}
+
+.containerBotonServicio .BotonServicio{
+    margin-top: 30px;
+}
+.containerBotonNosotros .BotonNosotros{
+    margin-top: 15px;
+}
