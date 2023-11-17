@@ -15,7 +15,7 @@ $inputFecha.addEventListener("change", (event) => {
   let fechaDelTurno = new Date(anio, meses.indexOf(indiceMes), dia);
   //se obtiene el dia de la semana para poder verificar si el dia elegido es domingo o sabado
   let diaDeLaSemana = semana[fechaDelTurno.getDay()];
-
+console.log(fechaDelTurno.getDay());
   fetch(`json/baseDeDatos.json`)
     .then((dato) => {
       return dato.json();

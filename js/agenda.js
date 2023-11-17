@@ -174,13 +174,14 @@ function agregarBoton() {
     let infoFecha = formulario[1].value;
     
     let fecha = infoFecha.split("-");
-    
+    let anio = fecha[0]
+
     let seleccionDeTurno = meses[fecha[1] - 1];
     
     let seleccionDeDia = fecha[2];
     
     let seleccionDeHora = Number(hora);
-    
+    console.log(seleccionDeTurno);
     //Agrega el turno al un array
     agregarTurno(seleccionDeTurno, seleccionDeDia, seleccionDeHora);
     
@@ -190,24 +191,20 @@ function agregarBoton() {
       meses.indexOf(seleccionDeTurno),
       seleccionDeDia
   );
-
+  
   let diaDeLaSemana = semana[fechaDelTurno.getDay()];
-
+   console.log(diaDeLaSemana);
   if (calendarioAnual.some((e) => e.mes === seleccionDeTurno)) {
     // trae el objeto del mes selecionado
     let objetoMes = calendarioAnual.find((e) => e.mes === seleccionDeTurno);
 
     //compara si el dia seleccionado existe dentro del objeto mes
     if (objetoMes.dias.some((e) => e.dia === seleccionDeDia)) {
-      //Se crea una fecha con el objeto Date para verificar que dia de la semana es
-      let fechaDelTurno = new Date(
-        anio,
-        meses.indexOf(seleccionDeTurno),
-        seleccionDeDia
-      );
+   
       //verifica que dia de la semana es para saber cuantas horas se trabajan
       if (diaDeLaSemana !== "Domingo") {
         //Verifica si el horario seleccionado existe dentro de las horas laborales
+        console.log(calcualdorDeHoras(diaDeLaSemana).includes(seleccionDeHora));
         if (calcualdorDeHoras(diaDeLaSemana).includes(seleccionDeHora)) {
           localStorage.setItem("listaTurnos", JSON.stringify(listaDeTurno));
           creadorDeTarjeta(
